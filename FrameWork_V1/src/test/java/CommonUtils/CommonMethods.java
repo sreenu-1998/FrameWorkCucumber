@@ -22,7 +22,7 @@ package CommonUtils;
 		
 		
 
-		WebDriver driver = null;
+		protected WebDriver driver = null;
 		public CommonMethods(WebDriver driver) throws IOException{
 			super(driver);
 			this.driver = driver;	

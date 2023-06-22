@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/Features",glue= {"StepDefinitions", "CommonUtils"}, monochrome = true,
 plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, 
-           tags = "@Scenario"
+           tags = "@Test2"
            )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
