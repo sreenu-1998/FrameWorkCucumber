@@ -57,20 +57,23 @@ Step 4: Install IDE (Eclipse/IntellIJ Idea).
 Step 4: Open the Project in IDE.
 
 Step 5: Check whether pom.xml file consists of all the below dependencies:
-1.	cucumber-java
-2.	selenium-java
-3.	Junit
-4.	Cucumber-junit
-5.	Webdrivermanager
-6.	TestNg
-7.	Log4j
-8.	Cucumber-testng
-9.	extentreports
-10.	extentreopts-cucumber7-adapter
+  1.	cucumber-java
+  2.	selenium-java
+  3.	Junit
+  4.	Cucumber-junit
+  5.	Webdrivermanager
+  6.	TestNg
+  7.	Log4j
+  8.	Cucumber-testng
+  9.	extentreports
+  10.	extentreopts-cucumber7-adapter
+      
 Step 6: Add following plugins
-1.	TestNg Plugin
-2.	Cucumber Plugin
+  1.	TestNg Plugin
+  2.	Cucumber Plugin
+     
 Step 7: Open Test Runner file.
+
 Step 8: Choose suitable tag and Run as Junit Test.
 
 
