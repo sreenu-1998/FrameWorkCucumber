@@ -22,14 +22,23 @@ Framework Structure:
 Before class starts the web driver whereas the after class closes the driver
 
 	src/test/java/outputFiles: This package consists of all the screenshots.
+
 	src/test/java/StepDefinitions: This package consists of all the glue code/ step definitions.
+
 	src/test/java/WebPages: This package consists of the xpaths of all the Web elements in each web page in the Web application.
+
 	src/test/java/FailedScreenshots: This package contains all the screenshots whenever the Test case is failed.
+
 	src/test/java/Log: This package consists of LogListener and LogerUtil classes which are useful for logging the Test Steps in the Log file.
+
 	src/test/resource/log4j.xml: This is log file where we can log each step of the test case.
+
 	src/test/resource/drivers: This folder consists of the WebDriver.exe files of various webBrowsers.
+
 	src/test/resource/Features: This folder consists of Cucumber feature files.
+
 	reports: This type of folder consists of HTML and PDF test reports of every test performed.
+
 	pom.xml: This file consists of all the dependencies, plugins, configuration etc to build a project.
 
  
