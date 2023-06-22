@@ -45,11 +45,17 @@ Before class starts the web driver whereas the after class closes the driver
 
 
 Steps to Setup and Run the Code.
+
 Step 1: Download and install Java 16 and configure java path.
+
 Step 2: Download and install Maven and configure maven path.
+
 Step 3: Configure JavaHome and MavenHome in environment variable.
+
 Step 4: Install IDE (Eclipse/IntellIJ Idea).
+
 Step 4: Open the Project in IDE.
+
 Step 5: Check whether pom.xml file consists of all the below dependencies:
 1.	cucumber-java
 2.	selenium-java
